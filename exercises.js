@@ -26,8 +26,6 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
-var bango1 = "";
-var bango2 = "";
 
 
 /*
@@ -44,12 +42,12 @@ var bango2 = "";
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
 */
-function add('num1', 'num2') {
-return 'num1' + 'num2';
+
+function add(num1, num2) {
+return num1 + num2;
 };
-add(3,4);
-var 'sum' = add(3,4);
-console.log('sum');
+let sum = add(4,4);
+console.log(sum);
 
 /*
  * #3
@@ -64,7 +62,11 @@ console.log('sum');
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
-
+function subtract(num1, num2){
+return num1 - num2;
+};
+let difference = subtract(100, 21);
+console.log(difference);
 
 
 
@@ -83,7 +85,11 @@ console.log('sum');
  * Invoke the function and assign it to a variable named `product`.
  * Console.log `product` to test your code.
 */
-
+function multiply(num1, num2){
+return num1 * num2;
+};
+let product = multiply(10,10);
+console.log(product);
 
 
 
@@ -100,7 +106,11 @@ console.log('sum');
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
-
+function divide(num1, num2){
+	return num1/num2;
+};
+let quotient = divide(10,2);
+console.log(quotient);
 
 
 /*
@@ -114,7 +124,10 @@ console.log('sum');
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`. 
  * Console.log your result.
 */
-
+function checkSum(x){
+	return 'Mariah has been married ' + x + ' amount of times.';
+};
+console.log(checkSum(21));
 
 
 
@@ -197,7 +210,7 @@ console.log('sum');
 */ 
 
 
-}
+
 
 
 /*
