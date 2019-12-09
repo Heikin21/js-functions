@@ -144,7 +144,10 @@ console.log(checkSum(21));
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
 */ 
-
+function checkDifference(x){
+	return 'Last night I dreamt that I ate ' + x + ' Taco Bell soft tacos.';
+};
+console.log(checkDifference(21));
 
 
 /*
@@ -157,7 +160,10 @@ console.log(checkSum(21));
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
-
+function checkProduct(){
+	return sum * product;
+};
+console.log(checkProduct());
 
 /*
  * #9
@@ -169,8 +175,10 @@ console.log(checkSum(21));
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
-
-
+function checkQuotient(){
+	return product * quotient;
+};
+console.log(checkQuotient());
 
 /*
  * #10
@@ -191,7 +199,10 @@ console.log(checkSum(21));
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
+function addThenSubtract (num1,num2,num3){
+	return (num1 + num2) - num3;
+};
+console.log(addThenSubtract(4,3,1));
 
 
 
@@ -208,8 +219,10 @@ console.log(checkSum(21));
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
-
+function multiplyThenDivide (num1,num2,num3){
+	return (num1 * num2) / num3;
+};
+console.log(multiplyThenDivide(8,8,2));
 
 
 
@@ -224,7 +237,10 @@ console.log(checkSum(21));
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
-
+function createFullName (firstName, lastName){
+	return firstName + ' ' + lastName;
+};
+console.log(eynald','Valera');
 
 
 /*
@@ -240,8 +256,10 @@ console.log(checkSum(21));
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
-
+function eatFood(firstName, lastName, food){
+	return firstName + ' ' + lastName + 'likes to eat' + food + '.';
+};
+console.log('Reynald', 'Valera', 'something edible');
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
