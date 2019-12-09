@@ -240,7 +240,7 @@ console.log(multiplyThenDivide(8,8,2));
 function createFullName (firstName, lastName){
 	return firstName + ' ' + lastName;
 };
-console.log(eynald','Valera');
+console.log(createFullName('Reynald','Valera'));
 
 
 /*
@@ -257,9 +257,9 @@ console.log(eynald','Valera');
  * Console.log your result.
  */
 function eatFood(firstName, lastName, food){
-	return firstName + ' ' + lastName + 'likes to eat' + food + '.';
+	return firstName + ' ' + lastName + ' likes to eat ' + food + '.';
 };
-console.log('Reynald', 'Valera', 'something edible');
+console.log(eatFood('Reynald', 'Valera', 'something edible'));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -273,7 +273,7 @@ console.log('Reynald', 'Valera', 'something edible');
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
-
+function shoeSize()
 
 
 /*
